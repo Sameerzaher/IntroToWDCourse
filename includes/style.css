@@ -1,0 +1,303 @@
+* { margin: 0; padding: 0;}
+
+header, nav, main, aside, footer, div { display: block; }
+
+a { text-decoration: none; color: #444444;  }
+
+
+body{
+    background: #E2F2F2;
+    font-family: "Apple Chancery" , Arial, sans-serif;
+}
+
+
+
+header {
+    width: 100%;
+    height: 170px;
+}
+
+#logoPic {
+
+
+    position: absolute;
+    background: url("../images/zaherlogo.jpg") no-repeat left center;
+    color: #222222;
+    font-size: 50px;
+    font-family: "Apple Braille", Gadget, sans-serif;
+    /* font positioning */
+    padding-top: 14px;
+    padding-left: 110px;
+    /* backgound pic positioning */
+    margin-left: 122px;
+    margin-top: 76px;
+}
+
+
+.navbar{
+    /*Marging*/
+    margin-left: 125px;
+    padding-top: 26px;
+
+
+
+
+}
+
+.navbar a{
+    margin-right: 25px;
+    /*Branding */
+    font-style:normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    color: #222222;
+    opacity: 0.3;
+
+}
+
+.navbar a:hover{
+    color: #1434E1;
+    opacity: 0.9;
+
+}
+
+.cover{
+
+
+    width: 350px;
+    height: 450px;
+    padding-left: 15px;
+
+}
+
+h1{
+
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1px;
+
+}
+h2{
+    margin-left: 90px;
+    padding-top: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -1px;
+
+}
+.AboutMe{
+    font-size: 30px;
+    line-height: 28px;
+    opacity: 0.7;
+
+    margin-right: 30px;
+    margin-left: 90px;
+
+
+}
+
+
+
+.Languages{
+    margin-left: 125px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.Languages h1{
+    margin-bottom: 25px;
+}
+
+.LangList{
+    list-style: none;
+}
+
+.LangList li{
+    padding-bottom: 50px;
+}
+
+.langTXT{
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    position: absolute;
+    padding-top: 16px;
+}
+
+
+.LangList li img{
+    height: 56px;
+    width: 56px;
+}
+
+#CIcon{
+    content: url("../images/CIcon.png");
+}
+
+#CPPIcon{
+    content: url("../images/CPPIcon.png");
+}
+
+#HTMLIcon{
+    content: url("../images/HTMLIcon.png");
+}
+
+#CSSIcon{
+    content: url("../images/CSSIcon.png");
+}
+#PHPIcon{
+    content: url("../images/PHPIcon.png");
+}
+
+
+
+.Img1{
+    background: none;
+    position: absolute;
+    padding-top: 90px;
+    width: 570px;
+    height: 417px;
+}
+
+.Img2{
+    position: absolute;
+    background: none;
+    margin-top: 150px;
+    margin-left: 315px;
+    width: 350px;
+    height: 453px;
+}
+
+footer {  /* general positioning */
+    position: absolute;
+    width: 1360px;
+    height: 240px;
+    background: #515151;
+    margin-top: 800px;
+
+}
+
+.gitButton {
+    position: absolute;
+    width: 206px;
+    height: 40px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    color: #FFFFFF;
+    background: #B6B393;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 59px;
+    margin-left: 125px;
+    cursor:pointer;
+}
+
+.gitButton:hover {
+    position: absolute;
+    width: 206px;
+    height: 40px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    color: #222222;
+    background: #C6B393;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 59px;
+    margin-left: 125px;
+    cursor:pointer;
+}
+
+.emailMe {
+    background: none;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 270px;
+    height: 28px;
+    text-align: center;
+    border: none;
+}
+
+.footer_buttons {
+    border: none;
+    color: #FFFFFF;
+    background: none;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 120px;
+}
+
+.footer_buttons:hover {
+    border: none;
+    color: #C6B393;
+    background: none;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 120px;
+    cursor:pointer;
+}
+/* Divider line */
+
+ul.smallPics li {
+    background: none;
+    display: inline;
+}
+
+.smallPics {
+    background: none;
+    position: absolute;
+    color: #FFFFFF;
+    width: 1111px;
+    height: 62px;
+    margin-left: 122px;
+    display: inline;
+    list-style-type: none;
+    margin-top: 160px;
+}
+
+.smIcons {
+
+    background: none;
+    margin-left: 20px;
+}
+h6 {
+    font-family: "Arial", Helvetica, sans-serif;
+}
