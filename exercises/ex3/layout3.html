@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html>
 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./includes/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+    <title>Dynamic</title>
+</head>
+
+<body id="layout3">
+<header>
+    <a class="button" onClick="generateBoxes()"></a>
+    <div class="clear"></div>
+</header>
+<div class="main">
+    <div id="nav" class="main-nav">
+        <nav>
+            <ul>
+                <li><a class="btn" href="./index.html"><span>MIX</a></span></li>
+                <li><a class="btn" href="./layout2.html"><span>STAIRS</a></span></li>
+                <li><a class="btn last selected" href="./layout3.html"><span>DYNAMIC</a></span></li>
+            </ul>
+        </nav>
+    </div>
+    <main id="box-container">
+        <section id="js-boxshow">
+            <div class="clear"></div>
+        </section>
+    </main>
+    <aside id="aside">
+
+    </aside>
+    <div class="clear"></div>
+</div>
+<section class="block"></section>
+<footer>
+
+</footer>
 </body>
+<script src="./includes/dot.js"></script>
+<script src="./includes/game.js"></script>
+
 </html>
