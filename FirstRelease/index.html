@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Food-login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <link href="includes/style.css" rel="stylesheet" />
+</head>
+
+<body>
+<header>
+    <nav class="main-navigation">
+        <div class="navbar-header animated fadeInUp">
+            <a class="navbar-brand" href="#" ></a>
+
+        </div>
+        <ul class="nav-list">
+            <li class="nav-list-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="pizza.html" class="nav-link">Pizza</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="pasta.html" class="nav-link">Pasta</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="drinks.html" class="nav-link">Drinks</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="#" class="nav-link">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Tabs Titles -->
+
+        <!-- Icon -->
+        <div class="fadeIn first">
+            <img src="images/eatit.png" id="icon" alt="User Icon" />
+        </div>
+
+        <!-- Login Form -->
+        <form action="login.php" method="get">
+            <input type="text" id="login" class="fadeIn second" name="user" placeholder="login">
+            <input type="text" id="password" class="fadeIn third" name="pass" placeholder="password">
+            <input type="submit" class="fadeIn fourth"  name="submit" value="Log In">
+        </form>
+    </div>
+</div>
+</body>
+</html>

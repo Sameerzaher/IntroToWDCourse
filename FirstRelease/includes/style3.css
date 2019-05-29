@@ -1,0 +1,16 @@
+@media only screen and (max-width:1180px){
+    .main-content-header{
+        width: 100%;
+        padding:0 2%;
+    }
+}
+
+@media only screen and(max-width:998px){
+    h1{font-size:200%}
+}
+
+@media only screen and (max-width:768px){
+    h1{font-size:180%}
+    .main-nav{display: none; }
+}
+
